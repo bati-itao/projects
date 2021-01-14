@@ -1,38 +1,46 @@
-blockquote {
-		margin: 70px auto;
+.ceasc-cite {
+	margin: 70px auto;
+}
+.ceasc-quote {
+	margin: 70px auto;
+	width: 85%;
+	padding-left: 125px;
+	min-height: 150px;
+	background: no-repeat left center;
+	border: none;
+}
 
-	// &.ceasc-cite {
-	// }
+.billy {
+	background-image: url('./img/billy.png') ;
+	position: relative;
 
-	&.ceasc-quote {
-		width: 85%;
-		padding-left: 125px;
-		min-height: 150px;
-		background: no-repeat left center;
-		border: none;
+	&:first-child {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
 	}
+}
 
-	&.mark {
-		background-image: url('./img/mark.png') ;
-	}
+.mark {
+	background-image: url('./img/mark.png') ;
+}
 
-	&.nora {
-		background-image: url('./img/nora.png') ;
-	}
+.nora {
+	background-image: url('./img/nora.png') ;
+}
 
-	&.luca {
-		background-image: url('./img/luca.png') ;
-	}
+.luca {
+	background-image: url('./img/luca.png') ;
+}
 
-	&.jeremy {
-		background-image: url('./img/jeremy.png') ;
-	}
+.jeremy {
+	background-image: url('./img/jeremy.png') ;
+}
 
-	&.leo {
-		background-image: url('./img/leo.png') ;
-	}
+.leo {
+	background-image: url('./img/leo.png') ;
+}
 
-	&.sophie {
-		background-image: url('./img/sophie.png') ;
-	}
+.sophie {
+	background-image: url('./img/sophie.png') ;
 }

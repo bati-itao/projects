@@ -1,8 +1,9 @@
-blockquote {
+.ceasc-cite {
   margin: 70px auto;
 }
 
-blockquote.ceasc-quote {
+.ceasc-quote {
+  margin: 70px auto;
   width: 85%;
   padding-left: 125px;
   min-height: 150px;
@@ -10,27 +11,39 @@ blockquote.ceasc-quote {
   border: none;
 }
 
-blockquote.mark {
+.billy {
+  background-image: url("./img/billy.png");
+  position: relative;
+}
+
+.billy:first-child {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.mark {
   background-image: url("./img/mark.png");
 }
 
-blockquote.nora {
+.nora {
   background-image: url("./img/nora.png");
 }
 
-blockquote.luca {
+.luca {
   background-image: url("./img/luca.png");
 }
 
-blockquote.jeremy {
+.jeremy {
   background-image: url("./img/jeremy.png");
 }
 
-blockquote.leo {
+.leo {
   background-image: url("./img/leo.png");
 }
 
-blockquote.sophie {
+.sophie {
   background-image: url("./img/sophie.png");
 }
 /*# sourceMappingURL=ceasc-styles.css.map */
