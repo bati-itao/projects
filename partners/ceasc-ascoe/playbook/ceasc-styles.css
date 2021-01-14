@@ -1,0 +1,36 @@
+blockquote {
+  margin: 70px auto;
+}
+
+blockquote.ceasc-quote {
+  width: 85%;
+  padding-left: 125px;
+  min-height: 150px;
+  background: no-repeat left center;
+  border: none;
+}
+
+blockquote.mark {
+  background-image: url("./img/mark.png");
+}
+
+blockquote.nora {
+  background-image: url("./img/nora.png");
+}
+
+blockquote.luca {
+  background-image: url("./img/luca.png");
+}
+
+blockquote.jeremy {
+  background-image: url("./img/jeremy.png");
+}
+
+blockquote.leo {
+  background-image: url("./img/leo.png");
+}
+
+blockquote.sophie {
+  background-image: url("./img/sophie.png");
+}
+/*# sourceMappingURL=ceasc-styles.css.map */

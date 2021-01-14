@@ -1,0 +1,38 @@
+blockquote {
+		margin: 70px auto;
+
+	// &.ceasc-cite {
+	// }
+
+	&.ceasc-quote {
+		width: 85%;
+		padding-left: 125px;
+		min-height: 150px;
+		background: no-repeat left center;
+		border: none;
+	}
+
+	&.mark {
+		background-image: url('./img/mark.png') ;
+	}
+
+	&.nora {
+		background-image: url('./img/nora.png') ;
+	}
+
+	&.luca {
+		background-image: url('./img/luca.png') ;
+	}
+
+	&.jeremy {
+		background-image: url('./img/jeremy.png') ;
+	}
+
+	&.leo {
+		background-image: url('./img/leo.png') ;
+	}
+
+	&.sophie {
+		background-image: url('./img/sophie.png') ;
+	}
+}
