@@ -11,6 +11,12 @@
   border: none;
 }
 
+h1 small,
+h2 small {
+  display: block;
+  margin-top: 15px;
+}
+
 .billy {
   background-image: url("./img/billy.png");
   position: relative;
