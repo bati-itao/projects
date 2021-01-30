@@ -80,7 +80,7 @@ h2 small {
 }
 
 .billy {
-  background-image: url("./img/billy.png");
+  background-image: url("../img/billy.png");
   position: relative;
 }
 
@@ -92,27 +92,27 @@ h2 small {
 }
 
 .mark {
-  background-image: url("./img/mark.png");
+  background-image: url("../img/mark.png");
 }
 
 .nora {
-  background-image: url("./img/nora.png");
+  background-image: url("../img/nora.png");
 }
 
 .luca {
-  background-image: url("./img/luca.png");
+  background-image: url("../img/luca.png");
 }
 
 .jeremy {
-  background-image: url("./img/jeremy.png");
+  background-image: url("../img/jeremy.png");
 }
 
 .leo {
-  background-image: url("./img/leo.png");
+  background-image: url("../img/leo.png");
 }
 
 .sophie {
-  background-image: url("./img/sophie.png");
+  background-image: url("../img/sophie.png");
 }
 
 .alert {
