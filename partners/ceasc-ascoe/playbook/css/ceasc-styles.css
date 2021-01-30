@@ -1,19 +1,63 @@
-.banner {
+.home {
   background: no-repeat center center;
   background-size: cover;
+}
+
+.home .gctheme.well.header-rwd {
+  background-color: #0d7d64;
+}
+
+.home .gctheme.well.header-rwd h1 {
+  width: 100%;
+  border: none;
+}
+
+.home .gctheme.well.header-rwd h1 small {
+  border-top: solid 4px #06372c;
+  color: #fff;
+  padding-top: 15px;
+  font-family: "Noto Sans",sans-serif;
+  width: 100%;
 }
 
 .banLanding {
   background-image: url("../img/ban-landingpage.jpg");
 }
 
-.playbooktheme {
-  background-color: #0f9476;
+.banTools {
+  background-image: url("../img/ban-inspiringtools.jpg");
 }
 
-.playbooktheme h1 {
-  border-bottom-color: #084f3f;
-  border-bottom-width: 4px;
+.banIntro {
+  background-image: url("../img/ban-introduction.jpg");
+}
+
+.banPlay1 {
+  background-image: url("../img/ban-play1.jpg");
+}
+
+.banPla2 {
+  background-image: url("../img/ban-play2.jpg");
+}
+
+.banPla3 {
+  background-image: url("../img/ban-play3.jpg");
+}
+
+.banPlay4 {
+  background-image: url("../img/ban-play4.jpg");
+}
+
+.banPlay5 {
+  background-image: url("../img/ban-play5.jpg");
+}
+
+.banPlay6 {
+  background-image: url("../img/ban-play6.jpg");
+}
+
+.banPlay7 {
+  background-image: url("../img/ban-play7.jpg");
 }
 
 .ceasc-cite {

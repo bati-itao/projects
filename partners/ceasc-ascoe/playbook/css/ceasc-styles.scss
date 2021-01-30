@@ -1,26 +1,71 @@
 $theme-color: rgb(15, 148, 118);
 
-.banner {
+.home {
 	background: no-repeat center center; 
 	background-size: cover;
+	
+	.gctheme.well.header-rwd {
+		background-color: darken($theme-color, 5);
+		
+		h1 {
+			width: 100%;
+			border: none;
+			
+			small {
+				border-top: solid 4px darken($theme-color, 20);
+				color: #fff;
+				padding-top: 15px;
+				font-family: "Noto Sans",sans-serif;
+				width: 100%;
+			}
+		}
+	}
 }
 
 .banLanding {
 	background-image: url("../img/ban-landingpage.jpg");
 }
 
-.playbooktheme {
-	background-color: $theme-color;
+.banTools {
+	background-image: url("../img/ban-inspiringtools.jpg");
+}
 
-	h1 {
-		border-bottom-color: darken($color: $theme-color, $amount: 15);
-		border-bottom-width: 4px;
-	}
+.banIntro {
+	background-image: url("../img/ban-introduction.jpg");
+}
+
+.banPlay1 {
+	background-image: url("../img/ban-play1.jpg");
+}
+
+.banPla2 {
+	background-image: url("../img/ban-play2.jpg");
+}
+
+.banPla3 {
+	background-image: url("../img/ban-play3.jpg");
+}
+
+.banPlay4 {
+	background-image: url("../img/ban-play4.jpg");
+}
+
+.banPlay5 {
+	background-image: url("../img/ban-play5.jpg");
+}
+
+.banPlay6 {
+	background-image: url("../img/ban-play6.jpg");
+}
+
+.banPlay7 {
+	background-image: url("../img/ban-play7.jpg");
 }
 
 .ceasc-cite {
 	margin: 70px auto;
 }
+
 .ceasc-quote {
 	margin: 70px auto;
 	width: 85%;
