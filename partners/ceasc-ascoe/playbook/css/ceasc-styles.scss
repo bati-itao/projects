@@ -120,4 +120,40 @@ h2 {
 
 .alert {
 	margin: 50px auto;
+
+	&.alert-info {
+		background-color: lighten($color: $theme-color, $amount: 60);
+	}
+}
+
+.active {
+	background-color: darken($theme-color, 5);
+}
+
+.toc {
+	li {
+		.list-group-item {
+			&.active {
+				background-color: darken($theme-color, 5);
+
+				&:hover {
+					background-color: darken($theme-color, 5);
+				}
+
+				&:focus {
+					background-color: darken($theme-color, 5);
+				}
+			}
+		}
+	}
+}
+
+.panel-primary {
+	border-color: darken($theme-color, 5);
+}
+
+.panel-primary > .panel-heading {
+	color: #fff;
+	background-color: darken($theme-color, 5);
+	border-color: darken($theme-color, 5);
 }

@@ -118,4 +118,34 @@ h2 small {
 .alert {
   margin: 50px auto;
 }
+
+.alert.alert-info {
+  background-color: #dafbf4;
+}
+
+.active {
+  background-color: #0d7d64;
+}
+
+.toc li .list-group-item.active {
+  background-color: #0d7d64;
+}
+
+.toc li .list-group-item.active:hover {
+  background-color: #0d7d64;
+}
+
+.toc li .list-group-item.active:focus {
+  background-color: #0d7d64;
+}
+
+.panel-primary {
+  border-color: #0d7d64;
+}
+
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #0d7d64;
+  border-color: #0d7d64;
+}
 /*# sourceMappingURL=ceasc-styles.css.map */
