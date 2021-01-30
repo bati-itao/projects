@@ -1,3 +1,23 @@
+$theme-color: rgb(15, 148, 118);
+
+.banner {
+	background: no-repeat center center; 
+	background-size: cover;
+}
+
+.banLanding {
+	background-image: url("../img/ban-landingpage.jpg");
+}
+
+.playbooktheme {
+	background-color: $theme-color;
+
+	h1 {
+		border-bottom-color: darken($color: $theme-color, $amount: 15);
+		border-bottom-width: 4px;
+	}
+}
+
 .ceasc-cite {
 	margin: 70px auto;
 }
