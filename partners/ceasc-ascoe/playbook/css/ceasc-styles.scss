@@ -130,6 +130,13 @@ h2 {
 	background-color: darken($theme-color, 5);
 }
 
+.list-group-item {
+	
+	&.disabled {
+	color: #000;
+   }
+}
+
 .toc {
 	li {
 		.list-group-item {

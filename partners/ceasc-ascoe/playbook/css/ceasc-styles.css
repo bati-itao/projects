@@ -127,6 +127,10 @@ h2 small {
   background-color: #0d7d64;
 }
 
+.list-group-item.disabled {
+  color: #000;
+}
+
 .toc li .list-group-item.active {
   background-color: #0d7d64;
 }
