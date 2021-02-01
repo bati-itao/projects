@@ -20,6 +20,24 @@
   width: 100%;
 }
 
+h2 {
+  color: #0a6651;
+  font-size: 2em;
+}
+
+h3 {
+  color: #0d7d64;
+  font-size: 1.4em;
+}
+
+h4 {
+  color: #0f9476;
+}
+
+.colour {
+  color: #0d7d64;
+}
+
 .banLanding {
   background-image: url("../img/ban-landingpage.jpg");
 }

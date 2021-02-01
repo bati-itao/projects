@@ -22,6 +22,24 @@ $theme-color: rgb(15, 148, 118);
 	}
 }
 
+h2 {
+	color: darken($color: $theme-color, $amount: 10);
+	font-size: 2em;
+}
+
+h3 {
+	color: darken($color: $theme-color, $amount: 5);
+	font-size: 1.4em;
+}
+
+h4 {
+	color: $theme-color;
+}
+
+.colour {
+	color: darken($color: $theme-color, $amount: 5);
+}
+
 .banLanding {
 	background-image: url("../img/ban-landingpage.jpg");
 }
