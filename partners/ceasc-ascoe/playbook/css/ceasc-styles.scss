@@ -5,7 +5,7 @@ $theme-color: rgb(15, 148, 118);
 	background-size: cover;
 	
 	.gctheme.well.header-rwd {
-		background-color: darken($theme-color, 5);
+		background-color: darken($theme-color, 15);
 		
 		h1 {
 			width: 100%;
@@ -23,12 +23,12 @@ $theme-color: rgb(15, 148, 118);
 }
 
 h2 {
-	color: darken($color: $theme-color, $amount: 10);
+	color: darken($color: $theme-color, $amount: 15);
 	font-size: 2em;
 }
 
 h3 {
-	color: darken($color: $theme-color, $amount: 5);
+	color: darken($color: $theme-color, $amount: 10);
 	font-size: 1.4em;
 }
 
@@ -37,7 +37,7 @@ h4 {
 }
 
 .colour {
-	color: darken($color: $theme-color, $amount: 5);
+	color: darken($color: $theme-color, $amount: 10);
 }
 
 .banLanding {
@@ -159,14 +159,14 @@ h2 {
 	li {
 		.list-group-item {
 			&.active {
-				background-color: darken($theme-color, 5);
+				background-color: darken($theme-color, 10);
 
 				&:hover {
-					background-color: darken($theme-color, 5);
+					background-color: darken($theme-color, 10);
 				}
 
 				&:focus {
-					background-color: darken($theme-color, 5);
+					background-color: darken($theme-color, 10);
 				}
 			}
 		}
@@ -174,11 +174,11 @@ h2 {
 }
 
 .panel-primary {
-	border-color: darken($theme-color, 5);
+	border-color: darken($theme-color, 10);
 }
 
 .panel-primary > .panel-heading {
 	color: #fff;
-	background-color: darken($theme-color, 5);
-	border-color: darken($theme-color, 5);
+	background-color: darken($theme-color, 10);
+	border-color: darken($theme-color, 10);
 }

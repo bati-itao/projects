@@ -4,7 +4,7 @@
 }
 
 .home .gctheme.well.header-rwd {
-  background-color: #0d7d64;
+  background-color: #084f3f;
 }
 
 .home .gctheme.well.header-rwd h1 {
@@ -21,12 +21,12 @@
 }
 
 h2 {
-  color: #0a6651;
+  color: #084f3f;
   font-size: 2em;
 }
 
 h3 {
-  color: #0d7d64;
+  color: #0a6651;
   font-size: 1.4em;
 }
 
@@ -35,7 +35,7 @@ h4 {
 }
 
 .colour {
-  color: #0d7d64;
+  color: #0a6651;
 }
 
 .banLanding {
@@ -150,24 +150,24 @@ h2 small {
 }
 
 .toc li .list-group-item.active {
-  background-color: #0d7d64;
+  background-color: #0a6651;
 }
 
 .toc li .list-group-item.active:hover {
-  background-color: #0d7d64;
+  background-color: #0a6651;
 }
 
 .toc li .list-group-item.active:focus {
-  background-color: #0d7d64;
+  background-color: #0a6651;
 }
 
 .panel-primary {
-  border-color: #0d7d64;
+  border-color: #0a6651;
 }
 
 .panel-primary > .panel-heading {
   color: #fff;
-  background-color: #0d7d64;
-  border-color: #0d7d64;
+  background-color: #0a6651;
+  border-color: #0a6651;
 }
 /*# sourceMappingURL=ceasc-styles.css.map */
