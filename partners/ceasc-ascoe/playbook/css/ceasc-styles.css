@@ -13,15 +13,22 @@
 }
 
 .home .gctheme.well.header-rwd h1 small {
-  border-top: solid 4px #06372c;
+  border-top: solid 4px #03201a;
   color: #fff;
   padding-top: 15px;
   font-family: "Noto Sans",sans-serif;
   width: 100%;
 }
 
+h1 small,
+h2 small,
+h3 small,
+h4 small {
+  color: #0b6f58;
+}
+
 h2 {
-  color: #084f3f;
+  color: #0a6651;
   font-size: 2em;
 }
 
@@ -31,7 +38,7 @@ h3 {
 }
 
 h4 {
-  color: #0f9476;
+  color: #0a6651;
 }
 
 .colour {
@@ -150,24 +157,24 @@ h2 small {
 }
 
 .toc li .list-group-item.active {
-  background-color: #0a6651;
+  background-color: #074537;
 }
 
 .toc li .list-group-item.active:hover {
-  background-color: #0a6651;
+  background-color: #074537;
 }
 
 .toc li .list-group-item.active:focus {
-  background-color: #0a6651;
+  background-color: #074537;
 }
 
 .panel-primary {
-  border-color: #0a6651;
+  border-color: #074537;
 }
 
 .panel-primary > .panel-heading {
   color: #fff;
-  background-color: #0a6651;
-  border-color: #0a6651;
+  background-color: #074537;
+  border-color: #074537;
 }
 /*# sourceMappingURL=ceasc-styles.css.map */

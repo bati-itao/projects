@@ -12,7 +12,7 @@ $theme-color: rgb(15, 148, 118);
 			border: none;
 			
 			small {
-				border-top: solid 4px darken($theme-color, 20);
+				border-top: solid 4px darken($theme-color, 25);
 				color: #fff;
 				padding-top: 15px;
 				font-family: "Noto Sans",sans-serif;
@@ -22,8 +22,18 @@ $theme-color: rgb(15, 148, 118);
 	}
 }
 
+h1,
+h2,
+h3,
+h4 {
+
+	small {
+		color: darken($color: $theme-color, $amount: 8);
+	}
+}
+
 h2 {
-	color: darken($color: $theme-color, $amount: 15);
+	color: darken($color: $theme-color, $amount: 10);
 	font-size: 2em;
 }
 
@@ -33,7 +43,7 @@ h3 {
 }
 
 h4 {
-	color: $theme-color;
+	color: darken($color: $theme-color, $amount: 10);
 }
 
 .colour {
@@ -159,14 +169,14 @@ h2 {
 	li {
 		.list-group-item {
 			&.active {
-				background-color: darken($theme-color, 10);
+				background-color: darken($theme-color, 17);
 
 				&:hover {
-					background-color: darken($theme-color, 10);
+					background-color: darken($theme-color, 17);
 				}
 
 				&:focus {
-					background-color: darken($theme-color, 10);
+					background-color: darken($theme-color, 17);
 				}
 			}
 		}
@@ -174,11 +184,11 @@ h2 {
 }
 
 .panel-primary {
-	border-color: darken($theme-color, 10);
+	border-color: darken($theme-color, 17);
 }
 
 .panel-primary > .panel-heading {
 	color: #fff;
-	background-color: darken($theme-color, 10);
-	border-color: darken($theme-color, 10);
+	background-color: darken($theme-color, 17);
+	border-color: darken($theme-color, 17);
 }
